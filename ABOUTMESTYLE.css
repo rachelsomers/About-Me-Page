@@ -1,0 +1,60 @@
+html {
+  background-image: desertman;
+}
+body{
+  margin: 0%;
+  font-family: 'Franklin Gothic Medium';
+}
+
+/*class selector*/
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(107, 46, 42);
+  height: 200px;
+  line-height: 200px;
+}
+
+header a {
+  color: rgb(243, 234, 219);
+  text-decoration: none;
+}
+
+/*Id selector*/
+#header-title {
+  display: block;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(243, 234, 219);
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+  text-decoration: none;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+#header a:hover {
+  color: black;
+  cursor: wait;
+}
+
+#intro {
+  color: greenyellow;
+  
+}
+
+#pageheader {
+  color: gold;
+}
